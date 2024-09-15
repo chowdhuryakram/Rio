@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-infinite-logo-slider";
+import fiverrimg from "../images/Fiverr-Logo-2009.png";
 
 const LogoSlider = () => {
   return (
@@ -15,11 +16,7 @@ const LogoSlider = () => {
         blurBoderColor={"#fff"}
       >
         <Slider.Slide>
-          <img
-            src="./src/images/Fiverr-Logo-2009.png"
-            alt="fiverr"
-            className="w-24"
-          />
+          <img src={fiverrimg} alt="fiverr" className="w-24" />
         </Slider.Slide>
         <Slider.Slide>
           <img
