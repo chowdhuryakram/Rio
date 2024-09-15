@@ -1,4 +1,8 @@
 import React from "react";
+import servicImg1 from "../images/undraw_typing_re_d4sq.svg";
+import servicImg2 from "../images/undraw_web_devices_re_m8sc.svg/";
+import servicImg3 from "../images/undraw_dropdown_menu_re_jqqs.svg";
+import servicImg4 from "../images/undraw_teamwork_hpdk.svg";
 
 const Services = () => {
   return (
@@ -13,11 +17,7 @@ const Services = () => {
       </div>
       <div className="grid grid-cols-2  justify-between items-center gap-5 container">
         <div className="flex rounded p-5 bg-indigo-100 shadow-lg shadow-indigo-100/50 hover:-rotate-1 transition-all duration-75 flex-col items-start gap-4 ">
-          <img
-            className="w-16"
-            src="./src/images/undraw_typing_re_d4sq.svg"
-            alt=""
-          />
+          <img className="w-16" src={servicImg1} alt="" />
           <h3 className="text-[25px] leading-7 text-[#202b38] font-medium">
             Customer Support Chatbots
           </h3>
@@ -30,11 +30,7 @@ const Services = () => {
           </a>
         </div>
         <div className="flex rounded p-5 bg-indigo-100 shadow-lg shadow-indigo-100/50 hover:-rotate-1 transition-all duration-75 flex-col items-start gap-4 ">
-          <img
-            className="w-16"
-            src="./src//images/undraw_teamwork_hpdk.svg"
-            alt=""
-          />
+          <img className="w-16" src={servicImg2} alt="" />
           <h3 className="text-[25px] leading-7 text-[#202b38] font-medium">
             Workflow Automations
           </h3>
@@ -47,11 +43,7 @@ const Services = () => {
           </a>
         </div>
         <div className="flex rounded p-5 bg-indigo-100 shadow-lg shadow-indigo-100/50 hover:-rotate-1 transition-all duration-75 flex-col items-start gap-4 ">
-          <img
-            className="w-16"
-            src="./src/images/undraw_web_devices_re_m8sc.svg"
-            alt=""
-          />
+          <img className="w-16" src={servicImg3} alt="" />
           <h3 className="text-[25px] leading-7 text-[#202b38] font-medium">
             Chatbots for Internal Use
           </h3>
@@ -64,11 +56,7 @@ const Services = () => {
           </a>
         </div>
         <div className="flex rounded p-5 bg-indigo-100 shadow-lg shadow-indigo-100/50 hover:-rotate-1 transition-all duration-75 flex-col items-start gap-4 ">
-          <img
-            className="w-16"
-            src="./src/images/undraw_personalization_re_grty.svg"
-            alt=""
-          />
+          <img className="w-16" src={servicImg4} alt="" />
           <h3 className="text-[25px] leading-7 text-[#202b38] font-medium">
             Custom GPTs
           </h3>

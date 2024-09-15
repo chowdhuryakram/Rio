@@ -1,6 +1,9 @@
 import React from "react";
 import Slider from "react-infinite-logo-slider";
 import fiverrimg from "../images/Fiverr-Logo-2009.png";
+import sumsang from "../images/Samsung-Logo.png";
+import ehayes from "../images/th.jfif";
+import brownbint from "../images/browning9344.logowik.com.webp";
 
 const LogoSlider = () => {
   return (
@@ -19,21 +22,13 @@ const LogoSlider = () => {
           <img src={fiverrimg} alt="fiverr" className="w-24" />
         </Slider.Slide>
         <Slider.Slide>
-          <img
-            src="./src/images/samsung_logo_PNG9.png.crdownload"
-            alt="any"
-            className="w-24"
-          />
+          <img src={sumsang} alt="any" className="w-24" />
         </Slider.Slide>
         <Slider.Slide>
-          <img src="/src/images/th.jfif" alt="any" className="w-24" />
+          <img src={ehayes} alt="any" className="w-24" />
         </Slider.Slide>
         <Slider.Slide>
-          <img
-            src="/src/images/browning9344.logowik.com.webp"
-            alt="any"
-            className="w-24"
-          />
+          <img src={brownbint} alt="any" className="w-24" />
         </Slider.Slide>
       </Slider>
     </div>

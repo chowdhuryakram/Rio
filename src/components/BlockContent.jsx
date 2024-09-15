@@ -1,4 +1,9 @@
 import React from "react";
+import blogContentImg from "../images/RIu7ujIfc3SKq931mOnyFqKaEaY.avif";
+import blogContentImg1 from "../images/undraw_dropdown_menu_re_jqqs.svg";
+import blogContentImg2 from "../images/undraw_personalization_re_grty.svg";
+import blogContentImg3 from "../images/G3MEsoXQjALKfj8Ya1mIWgFMuc.avif";
+import blogContentImg4 from "../images/cbIdsCeoBI32SK33j3fHyQ7Fb4.avif";
 
 const BlockContent = () => {
   return (
@@ -36,7 +41,7 @@ const BlockContent = () => {
           </button>
         </div>
         <div className="">
-          <img src="./src/images/RIu7ujIfc3SKq931mOnyFqKaEaY.avif" alt="" />
+          <img src={blogContentImg} alt="" />
         </div>
       </div>
 
@@ -53,11 +58,7 @@ const BlockContent = () => {
               className="border hover:bg-[#1a5eff] hover:text-white hover:rounded p-4 flex items-center justify-between gap-2 my-5 "
               href="#"
             >
-              <img
-                className="w-16 object-cover"
-                src="./src/images/undraw_dropdown_menu_re_jqqs.svg"
-                alt=""
-              />
+              <img className="w-16 object-cover" src={blogContentImg1} alt="" />
               <h2>Boost efficiency and cut costs with AI-powered automation</h2>
               <i class="fa-solid bg-white text-black border border-gray-500 p-2 rounded-full mr-2 fa-check"></i>
             </a>
@@ -65,11 +66,7 @@ const BlockContent = () => {
               className="border hover:bg-[#1a5eff] hover:text-white hover:rounded p-4 flex items-center justify-between gap-2 my-5 "
               href="#"
             >
-              <img
-                className="w-16 object-cover"
-                src="./src/images/undraw_dropdown_menu_re_jqqs.svg"
-                alt=""
-              />
+              <img className="w-16 object-cover" src={blogContentImg2} alt="" />
               <h2>Boost efficiency and cut costs with AI-powered automation</h2>
               <i class="fa-solid bg-white text-black border border-gray-500 p-2 rounded-full mr-2 fa-check"></i>
             </a>
@@ -87,7 +84,7 @@ const BlockContent = () => {
           <div className="client flex items-center gap-2 mt-10">
             <img
               className="w-16 h-16 rounded-full object-cover"
-              src="./src/images/G3MEsoXQjALKfj8Ya1mIWgFMuc.avif"
+              src={blogContentImg3}
               alt=""
             />
             <div className="clien-content ">
@@ -101,7 +98,7 @@ const BlockContent = () => {
           </div>
         </div>
         <div className="">
-          <img src="./src/images/cbIdsCeoBI32SK33j3fHyQ7Fb4.avif" alt="" />
+          <img src={blogContentImg4} alt="" />
         </div>
       </div>
     </>

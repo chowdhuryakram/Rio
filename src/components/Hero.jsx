@@ -1,3 +1,6 @@
+import heroClient1 from "../images/client 1.jpg";
+import heroClient2 from "../images/clients 2.jpg";
+import heroClient3 from "../images/clients 3.jpg";
 const Hero = () => {
   return (
     <div className="min-h-screen">
@@ -23,17 +26,17 @@ const Hero = () => {
           <a className="clients-img justify-center flex items-center" href="#">
             <img
               className="w-12 mr-[-20px] border border-5 border-[#00e] h-12 object-cover rounded-full"
-              src="./src/images/client 1.jpg"
+              src={heroClient1}
               alt=""
             />
             <img
               className="w-12 border border-5 border-[#00e] mr-[-20px] h-12 object-cover rounded-full"
-              src="./src/images/clients 2.jpg"
+              src={heroClient2}
               alt=""
             />
             <img
               className="w-12 border border-5 border-[#00e] h-12 object-cover rounded-full"
-              src="./src/images/clients 3.jpg"
+              src={heroClient3}
               alt=""
             />
           </a>
