@@ -23,17 +23,17 @@ const Hero = () => {
           <a className="clients-img justify-center flex items-center" href="#">
             <img
               className="w-12 mr-[-20px] border border-5 border-[#00e] h-12 object-cover rounded-full"
-              src="src/assets/images/client 1.jpg"
+              src="./src/images/client 1.jpg"
               alt=""
             />
             <img
               className="w-12 border border-5 border-[#00e] mr-[-20px] h-12 object-cover rounded-full"
-              src="src/assets/images/clients 2.jpg"
+              src="./src/images/clients 2.jpg"
               alt=""
             />
             <img
               className="w-12 border border-5 border-[#00e] h-12 object-cover rounded-full"
-              src="src/assets/images/clients 3.jpg"
+              src="./src/images/clients 3.jpg"
               alt=""
             />
           </a>

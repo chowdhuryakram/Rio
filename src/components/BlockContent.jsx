@@ -36,10 +36,7 @@ const BlockContent = () => {
           </button>
         </div>
         <div className="">
-          <img
-            src="./src/assets/images/RIu7ujIfc3SKq931mOnyFqKaEaY.avif"
-            alt=""
-          />
+          <img src="./src/images/RIu7ujIfc3SKq931mOnyFqKaEaY.avif" alt="" />
         </div>
       </div>
 
@@ -58,7 +55,7 @@ const BlockContent = () => {
             >
               <img
                 className="w-16 object-cover"
-                src="./src/assets/images/undraw_dropdown_menu_re_jqqs.svg"
+                src="./src/images/undraw_dropdown_menu_re_jqqs.svg"
                 alt=""
               />
               <h2>Boost efficiency and cut costs with AI-powered automation</h2>
@@ -70,7 +67,7 @@ const BlockContent = () => {
             >
               <img
                 className="w-16 object-cover"
-                src="./src/assets/images/undraw_dropdown_menu_re_jqqs.svg"
+                src="./src/images/undraw_dropdown_menu_re_jqqs.svg"
                 alt=""
               />
               <h2>Boost efficiency and cut costs with AI-powered automation</h2>
@@ -90,7 +87,7 @@ const BlockContent = () => {
           <div className="client flex items-center gap-2 mt-10">
             <img
               className="w-16 h-16 rounded-full object-cover"
-              src="./src/assets/images/G3MEsoXQjALKfj8Ya1mIWgFMuc.avif"
+              src="./src/images/G3MEsoXQjALKfj8Ya1mIWgFMuc.avif"
               alt=""
             />
             <div className="clien-content ">
@@ -104,10 +101,7 @@ const BlockContent = () => {
           </div>
         </div>
         <div className="">
-          <img
-            src="./src/assets/images/cbIdsCeoBI32SK33j3fHyQ7Fb4.avif"
-            alt=""
-          />
+          <img src="./src/images/cbIdsCeoBI32SK33j3fHyQ7Fb4.avif" alt="" />
         </div>
       </div>
     </>

@@ -15,7 +15,7 @@ const Services = () => {
         <div className="flex rounded p-5 bg-indigo-100 shadow-lg shadow-indigo-100/50 hover:-rotate-1 transition-all duration-75 flex-col items-start gap-4 ">
           <img
             className="w-16"
-            src="/src/assets/images/undraw_typing_re_d4sq.svg"
+            src="./src/images/undraw_typing_re_d4sq.svg"
             alt=""
           />
           <h3 className="text-[25px] leading-7 text-[#202b38] font-medium">
@@ -32,7 +32,7 @@ const Services = () => {
         <div className="flex rounded p-5 bg-indigo-100 shadow-lg shadow-indigo-100/50 hover:-rotate-1 transition-all duration-75 flex-col items-start gap-4 ">
           <img
             className="w-16"
-            src="/src/assets/images/undraw_teamwork_hpdk.svg"
+            src="./src//images/undraw_teamwork_hpdk.svg"
             alt=""
           />
           <h3 className="text-[25px] leading-7 text-[#202b38] font-medium">
@@ -49,7 +49,7 @@ const Services = () => {
         <div className="flex rounded p-5 bg-indigo-100 shadow-lg shadow-indigo-100/50 hover:-rotate-1 transition-all duration-75 flex-col items-start gap-4 ">
           <img
             className="w-16"
-            src="/src/assets/images/undraw_web_devices_re_m8sc.svg"
+            src="./src/images/undraw_web_devices_re_m8sc.svg"
             alt=""
           />
           <h3 className="text-[25px] leading-7 text-[#202b38] font-medium">
@@ -66,7 +66,7 @@ const Services = () => {
         <div className="flex rounded p-5 bg-indigo-100 shadow-lg shadow-indigo-100/50 hover:-rotate-1 transition-all duration-75 flex-col items-start gap-4 ">
           <img
             className="w-16"
-            src="/src/assets/images/undraw_personalization_re_grty.svg"
+            src="./src/images/undraw_personalization_re_grty.svg"
             alt=""
           />
           <h3 className="text-[25px] leading-7 text-[#202b38] font-medium">

@@ -16,24 +16,24 @@ const LogoSlider = () => {
       >
         <Slider.Slide>
           <img
-            src="../src/assets/images/Fiverr-Logo-2009.png"
-            alt="any"
+            src="./src/images/Fiverr-Logo-2009.png"
+            alt="fiverr"
             className="w-24"
           />
         </Slider.Slide>
         <Slider.Slide>
           <img
-            src="/src/assets/images/samsung_logo_PNG9.png.crdownload"
+            src="./src/images/samsung_logo_PNG9.png.crdownload"
             alt="any"
             className="w-24"
           />
         </Slider.Slide>
         <Slider.Slide>
-          <img src="/src/assets/images/th.jfif" alt="any" className="w-24" />
+          <img src="/src/images/th.jfif" alt="any" className="w-24" />
         </Slider.Slide>
         <Slider.Slide>
           <img
-            src="/src/assets/images/browning9344.logowik.com.webp"
+            src="/src/images/browning9344.logowik.com.webp"
             alt="any"
             className="w-24"
           />

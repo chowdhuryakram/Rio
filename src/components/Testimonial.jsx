@@ -8,8 +8,7 @@ const Testimonial = () => {
           Testimonials
         </h2>
         <h3 className="text-[55px] w-[700px] mx-auto leading-[62px] py-8 font-bold">
-          Leading the way in AI automation{" "}
-          <span className="text-[#1a5eff]">expertise</span>
+          Leading the way in AI automation
         </h3>
       </div>
     </div>
