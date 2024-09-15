@@ -16,7 +16,7 @@ const LogoSlider = () => {
       >
         <Slider.Slide>
           <img
-            src="/src/assets/images/Fiverr-Logo-2009.png"
+            src="../src/assets/images/Fiverr-Logo-2009.png"
             alt="any"
             className="w-24"
           />
